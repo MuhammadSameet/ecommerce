@@ -1,7 +1,7 @@
   import axios from 'axios';
   import { client } from './sanityClient.js';
   import slugify from 'slugify';
-
+  
   async function uploadImageToSanity(imageUrl: string): Promise<string|null> {
 
     try {
